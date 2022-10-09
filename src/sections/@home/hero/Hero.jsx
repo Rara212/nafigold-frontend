@@ -1,34 +1,25 @@
 import React from "react";
 
-function Hero() {
+export default function Hero() {
   return (
-    <div className="wrapper text-white bg-[#1E1E1C] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative">
-      {/* left side */}
-      <div className="headings flex flex-col items-start justify-center h-[100%] text-[3rem] border-solid border-2 border-white mx-auto">
-        <span className="text-[#CEAE5E] font-title">Kenapa Harus</span>
-        <span>
-          <b>Nafi' Gold</b>
-        </span>
-        <span className="text-[15px]">
-          this is for more info
-          <br />
-          continue here
-        </span>
-        {/* order link use <a>? and put the symbol after the kw*/}
-        <div>
-          <span className="text-[13px]">Pesan Sekarang</span>
-        </div>
+    <div className="h-screen flex mt-[-4rem] gap-32 lg:flex-row  lg:px-32 ">
+      <div className="my-auto w-1/2  ">
+        <h1 className="font-title text-5xl text-white">
+          Kenapa Harus{" "}
+          <span className="text-[#CEAE5E] block">NAFI&#39; GOLD</span>
+        </h1>
+        <p className="font-body text-2xl text-white font-medium">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+        </p>
+        <button className="font-body  text-2xl text-white font-bold">
+          ORDER NOW
+        </button>
       </div>
-      {/* right side */}
-      <div className="images relative w-[50%]">
-        <img
-          src="/assets/heroImage.png"
-          alt="logo"
-          className="absolute w-[486px] left-[-1rem] top-[-15rem]"
-        />
+      <div className="bg-[#CEAE5E] h-[311px] absolute z-[-2] w-[311px] left-1/4 bottom-1/4 rounded-full mt-52"></div>
+      <div className="lg:w-1/3 my-auto">
+        <img src="/assets/heroImage.png" alt="hero-image" />
       </div>
     </div>
   );
 }
-
-export default Hero;
