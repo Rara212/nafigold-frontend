@@ -13,7 +13,7 @@ const Products = () => {
             alt="antam 1gr"
           />
           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
-          <p className="text-center text-4xl font-bold">Emas 1gr</p>
+          <p className="text-center text-4xl font-bold">Emas 0.5gr</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
           </div>
@@ -43,7 +43,7 @@ const Products = () => {
             alt="antam 1gr"
           />
           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
-          <p className="text-center text-4xl font-bold">Emas 1gr</p>
+          <p className="text-center text-4xl font-bold">Emas 2gr</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
           </div>
@@ -58,7 +58,52 @@ const Products = () => {
             alt="antam 1gr"
           />
           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
-          <p className="text-center text-4xl font-bold">Emas 1gr</p>
+          <p className="text-center text-4xl font-bold">Emas 3gr</p>
+          <div className="text-center font-medium">
+            <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+          </div>
+          <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+            Beli
+          </button>
+        </div>
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <img
+            className="mx-auto bg-white"
+            src="/assets/products/antam_1_gram.png"
+            alt="antam 1gr"
+          />
+          <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+          <p className="text-center text-4xl font-bold">Emas 4gr</p>
+          <div className="text-center font-medium">
+            <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+          </div>
+          <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+            Beli
+          </button>
+        </div>
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <img
+            className="mx-auto bg-white"
+            src="/assets/products/antam_1_gram.png"
+            alt="antam 1gr"
+          />
+          <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+          <p className="text-center text-4xl font-bold">Emas 5gr</p>
+          <div className="text-center font-medium">
+            <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+          </div>
+          <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+            Beli
+          </button>
+        </div>
+        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+          <img
+            className="mx-auto bg-white"
+            src="/assets/products/antam_1_gram.png"
+            alt="antam 1gr"
+          />
+          <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+          <p className="text-center text-4xl font-bold">Emas 10gr</p>
           <div className="text-center font-medium">
             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
           </div>
