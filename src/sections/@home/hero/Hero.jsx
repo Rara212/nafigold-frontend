@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <div className="bg-[#CEAE5E] h-[311px] absolute z-[-2] w-[311px] left-1/4 bottom-1/4 rounded-full mt-52"></div>
       <div className="lg:w-1/3 my-auto">
-        <img src="/assets/heroImage.png" alt="hero-image" />
+        <img src="/assets/heroImage.png" alt="hero" />
       </div>
     </div>
   );

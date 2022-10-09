@@ -1,0 +1,134 @@
+export default function Products() {
+  return (
+    <div className="bg-white py-">
+      <div className="text-center">
+        <h2 className="font-title text-[#CEAE5E] text-5xl">Our Products</h2>
+        <h5 className="font-[Norican] text-[#959595] text-2xl">
+          All the best item for you
+        </h5>
+      </div>
+      <Card />
+    </div>
+  );
+}
+
+function Card() {
+  return <div></div>;
+}
+// const Products = () => {
+//   return (
+//     <div className="w-full py-[5rem] px-4 bg-white text-center">
+//       <h2 className="text-5xl text-[#CEAE5E] font-title">Our Products</h2>
+//       <p className="">All the finest for you</p>
+//       <div className="max-w-[1240px] mx-auto grid md:grid-cols-4 gap-8">
+//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+//           <img
+//             className="mx-auto bg-white"
+//             src="/assets/products/antam_1_gram.png"
+//             alt="antam 1gr"
+//           />
+//           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+//           <p className="text-center text-4xl font-bold">Emas 0.5gr</p>
+//           <div className="text-center font-medium">
+//             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+//           </div>
+//           <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+//             Beli
+//           </button>
+//         </div>
+//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+//           <img
+//             className="mx-auto bg-white"
+//             src="/assets/products/antam_1_gram.png"
+//             alt="antam 1gr"
+//           />
+//           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+//           <p className="text-center text-4xl font-bold">Emas 1gr</p>
+//           <div className="text-center font-medium">
+//             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+//           </div>
+//           <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+//             Beli
+//           </button>
+//         </div>
+//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+//           <img
+//             className="mx-auto bg-white"
+//             src="/assets/products/antam_1_gram.png"
+//             alt="antam 1gr"
+//           />
+//           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+//           <p className="text-center text-4xl font-bold">Emas 2gr</p>
+//           <div className="text-center font-medium">
+//             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+//           </div>
+//           <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+//             Beli
+//           </button>
+//         </div>
+//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+//           <img
+//             className="mx-auto bg-white"
+//             src="/assets/products/antam_1_gram.png"
+//             alt="antam 1gr"
+//           />
+//           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+//           <p className="text-center text-4xl font-bold">Emas 3gr</p>
+//           <div className="text-center font-medium">
+//             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+//           </div>
+//           <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+//             Beli
+//           </button>
+//         </div>
+//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+//           <img
+//             className="mx-auto bg-white"
+//             src="/assets/products/antam_1_gram.png"
+//             alt="antam 1gr"
+//           />
+//           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+//           <p className="text-center text-4xl font-bold">Emas 4gr</p>
+//           <div className="text-center font-medium">
+//             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+//           </div>
+//           <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+//             Beli
+//           </button>
+//         </div>
+//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+//           <img
+//             className="mx-auto bg-white"
+//             src="/assets/products/antam_1_gram.png"
+//             alt="antam 1gr"
+//           />
+//           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+//           <p className="text-center text-4xl font-bold">Emas 5gr</p>
+//           <div className="text-center font-medium">
+//             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+//           </div>
+//           <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+//             Beli
+//           </button>
+//         </div>
+//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+//           <img
+//             className="mx-auto bg-white"
+//             src="/assets/products/antam_1_gram.png"
+//             alt="antam 1gr"
+//           />
+//           <h2 className="text-2xl font-bold text-center py-5">Antam</h2>
+//           <p className="text-center text-4xl font-bold">Emas 10gr</p>
+//           <div className="text-center font-medium">
+//             <p className="py-2 border-b mx-8 mt-2">Rp.1.000.000</p>
+//           </div>
+//           <button className="bg-orange-400 w-[200px] rounded-md font-medium mx-auto px-6 py-3">
+//             Beli
+//           </button>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Products;
