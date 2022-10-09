@@ -18,10 +18,10 @@ const Navbar = () => (
         <li>Tentang Kami</li>
       </ul>
     </div>
-    <select>
+    {/* <select>
       <option value="ID">ID</option>
       <option value="EN">EN</option>
-    </select>
+    </select> */}
   </nav>
 );
 export default Navbar;
