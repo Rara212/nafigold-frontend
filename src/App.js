@@ -1,17 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Price from "./components/Price";
-import Products from "./components/Products";
+
+import Router from "./routes";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Price />
-      <Products />
-    </div>
+    <React.Fragment>
+      <Router />
+    </React.Fragment>
   );
 }
 
