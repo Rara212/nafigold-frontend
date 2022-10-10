@@ -98,3 +98,5 @@ export const products = [
     img: "/assets/products/figura/figura3.jpg",
   },
 ];
+
+
