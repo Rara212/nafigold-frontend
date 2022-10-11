@@ -56,6 +56,41 @@ export default function Services() {
                     <p className="text-2xl mx-auto px-28 py-[-25rem]">{tabsData[activeTabIndex].content}</p>
                 </div>
             </div>
+
+            {/*making notes*/}
+            <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 mt-14 justify-center">
+                <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+                    <img
+                    className="w-1/4" 
+                    src="/assets/amanah.png" 
+                    alt="amanah"/>
+                    <h5 className="text-white font-bold text-center">Amanah dan Terpercaya</h5>
+                    <p>Tabungan aman <strong className="text-[#CEAE5E]">sesuai syariat Islam</strong>, InsyaAllah lebih berkah.</p>
+                </div>
+                <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+                    <img
+                    className="w-1/4" 
+                    src="/assets/accountable.png" 
+                    alt="amanah"/>
+                    <h5 className="text-white font-bold text-center">Amanah dan Terpercaya</h5>
+                    <p>Tabungan aman <strong className="text-[#CEAE5E]">sesuai syariat Islam</strong>, InsyaAllah lebih berkah.</p>
+                </div>
+                <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+                    <img
+                    className="w-1/4" 
+                    src="/assets/overview.png" 
+                    alt="amanah"/>
+                    <h5 className="text-white font-bold text-center">Amanah dan Terpercaya</h5>
+                    <p>Tabungan aman <strong className="text-[#CEAE5E]">sesuai syariat Islam</strong>, InsyaAllah lebih berkah.</p>
+                </div>
+            </div>
+            
+            {/*making join button*/}
+            <div className="max-w-[1240px] mx-auto justify-center mt-20 px-96">
+                <button className="rounded-full bg-[#CEAE5E] text-center text-2xl p-2 font-title gap-10 ">
+                    Gabung Sekarang
+                </button>
+            </div>  
         </div>
     );
 }
