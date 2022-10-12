@@ -6,12 +6,6 @@ body {
   background-color: #1e1e1c;
 }
 
-/* Chrome, Safari and Opera */
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-.no-scrollbar {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+.active {
+  @apply bg-[#CEAE5E] rounded p-4;
 }

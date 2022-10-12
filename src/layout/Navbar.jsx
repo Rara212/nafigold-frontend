@@ -14,6 +14,7 @@ const Navbar = () => (
       <ul className=" lg:ml-24 pt-3 gap-16 flex text-white ">
         <li>Beranda</li>
         <li>Skema Transaksi</li>
+        <li>Produk Kami</li>
         <li>Layanan Kami</li>
         <li>Tentang Kami</li>
       </ul>

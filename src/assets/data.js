@@ -1,3 +1,5 @@
+import { MdDashboard, MdProductionQuantityLimits } from "react-icons/md";
+
 export const products = [
   {
     id: 1,
@@ -99,4 +101,15 @@ export const products = [
   },
 ];
 
-
+export const DashboardSidebarData = [
+  {
+    label: "Dashboard",
+    path: "/app",
+    icon: MdDashboard,
+  },
+  {
+    label: "Product",
+    path: "/our-products",
+    icon: MdProductionQuantityLimits,
+  },
+];
