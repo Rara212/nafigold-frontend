@@ -52,8 +52,8 @@ export default function Services() {
                 </div>
                 {/* Show active tab content. */}
                 <div className="flex py-4 px-40 mt-24">
-                    <img className="w-1/4" src={tabsData[activeTabIndex].image} alt="illustration"/>
-                    <p className="text-2xl mx-auto px-28 py-[-25rem]">{tabsData[activeTabIndex].content}</p>
+                    <img className="px-4 w-32 mx-5" src={tabsData[activeTabIndex].image} alt="illustration"/>
+                    <p className="text-xl mx-auto px-24 py-[-15rem] border-l-4 border-white">{tabsData[activeTabIndex].content}</p>
                 </div>
             </div>
 
