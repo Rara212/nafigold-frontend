@@ -1,6 +1,8 @@
 import { products } from "../../../assets/data";
 
 export default function Products() {
+  const emas = products.filter((item) => item.category === "emas");
+
   return (
     <div className="bg-white py-20">
       <div className="text-center">
@@ -11,7 +13,7 @@ export default function Products() {
       </div>
       <Box />
       <div className="flex w-full justify-start  flex-col">
-        <div className="w-4/5 px-60 mx-auto flex flex-col  ">
+        <div className="w-9/10 px-60 mx-auto flex flex-col  ">
           {/* All Kind of Products */}
           <div className="my-auto">
             <div>
@@ -62,7 +64,7 @@ export default function Products() {
                   src="/assets/products/emas/minigold_.1_gram.png"
                   alt="minigold"
                 />
-                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] ">
+                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
                   <p className="m-auto">Rp. 997.000</p>
                 </div>
               </div>
@@ -73,7 +75,7 @@ export default function Products() {
                   src="/assets/products/emas/minigold_.1_gram.png"
                   alt="minigold"
                 />
-                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] ">
+                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
                   <p className="m-auto">Rp. 997.000</p>
                 </div>
               </div>
@@ -84,7 +86,7 @@ export default function Products() {
                   src="/assets/products/emas/minigold_.1_gram.png"
                   alt="minigold"
                 />
-                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] ">
+                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] shadow-[0_4px_4px_rgba(0,0,0,0.25)]">
                   <p className="m-auto">Rp. 997.000</p>
                 </div>
               </div>
@@ -98,8 +100,8 @@ export default function Products() {
               </h6>
               <p className="text-[16px] text-[#F30000]">See All</p>
             </div>
-            <div className="flex flex-wrap py-10 gap-20 justify-evenly">
-              {products.map((item) => (
+            <div className="flex  py-10 gap-20 justify-evenly">
+              {emas.map((item) => (
                 <div className="product ">
                   <img
                     className="w-[132px] h-[132px] rounded-[10px]"

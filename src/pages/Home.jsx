@@ -8,6 +8,7 @@ import Services from "../sections/@home/services/Services";
 import Reviews from "../sections/@home/reviews/Reviews";
 import Subscription from "../sections/@home/subscription/Subscription";
 import AboutUs from "../sections/@home/aboutus/AboutUs";
+import TransactionSchema from "../sections/@home/transactionSchemas/TransactionSchemas";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <Price />
       <Products />
+      <TransactionSchema />
       <Keunggulan />
       <Reviews />
       <Services />
