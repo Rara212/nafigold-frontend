@@ -5,3 +5,11 @@
 body {
   background-color: #1e1e1c;
 }
+
+.price {
+  @apply font-body text-2xl font-[600];
+}
+
+.price-header {
+  @apply font-body text-[20px];
+}

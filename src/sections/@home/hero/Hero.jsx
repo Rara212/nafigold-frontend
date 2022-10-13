@@ -8,11 +8,20 @@ export default function Hero() {
           Kenapa Harus{" "}
           <span className="text-[#CEAE5E] block">NAFI&#39; GOLD</span>
         </h1>
-        <p className="font-body text-2xl text-white font-medium">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+        <br />
+        <p className="font-body text-2xl text-white ">
+          Nafi Gold adalah platform jual beli emas dengan sistem syariah.
+          Ditengah merebaknya transaksi yang bercampur RIBA di masyarakat, Insya
+          Allah emas sudah membuktikan kekuatannya dalam inflasi.
         </p>
-        <button className="font-body  text-2xl text-white font-bold">
+        <br />
+        <p className="font-body text-2xl text-white ">
+          Kami juga memberikan layanan menabung kepada para konsumen untuk
+          merencanakan keuangan yang lebih baik untuk memulai habits menabung.
+          Serta meredam pola hidup flexing dan terhindar dari pinjaman riba.
+          Untuk masa depan yang lebih baik. Berkah dunia akhirat pun dapat.
+        </p>
+        <button className="font-body block mr-0 ml-auto text-2xl text-white font-bold">
           ORDER NOW
         </button>
       </div>

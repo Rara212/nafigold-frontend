@@ -1,19 +1,13 @@
 const Price = () => (
-  <div className="w-full my-32 text-black">
-    <div className="max-w-[1240px] mx-auto">
-      <div className="grid md:grid-cols-2 gap-1 px-5 text-center">
-        <div className="border py-8 rounded-xl shadow-xl bg-white">
-          <p className="text-3xl mb-2">
-            <h3>Harga Beli</h3>
-          </p>
-          <p className="text-6xl font-bold">Rp. XXX/gr</p>
-        </div>
-        <div className="border py-8 rounded-xl shadow-xl bg-white">
-          <p className="text-3xl mb-2">
-            <h3>Harga Jual</h3>
-          </p>
-          <p className="text-6xl font-bold">Rp. XXX/gr</p>
-        </div>
+  <div className="flex p-5 justify-center">
+    <div className="grid grid-cols-2 text-center py-8 divide-x text-black rounded-lg   bg-white w-1/3">
+      <div>
+        <h3 className="price-header">Harga Beli Emas</h3>
+        <p className="price">Rp. 997.000</p>
+      </div>
+      <div>
+        <h3 className="price-header">Harga Jual Emas</h3>
+        <p className="price">Rp. 919.000</p>
       </div>
     </div>
   </div>
