@@ -81,22 +81,20 @@ export const products = [
     name: "Figura Emas",
     category: "figura",
     price: "150.000",
-    img: "/assets/products/figura/figura1.jpg",
+    img: "/assets/products/figura/Figura1.jpg",
   },
   {
     id: 12,
     name: "Figura Emas",
     category: "figura",
     price: "250.000",
-    img: "/assets/products/figura/figura2.jpg",
+    img: "/assets/products/figura/Figura2.jpg",
   },
   {
     id: 13,
     name: "Figura Emas",
     category: "figura",
     price: "220.000",
-    img: "/assets/products/figura/figura3.jpg",
+    img: "/assets/products/figura/Figura3.jpg",
   },
 ];
-
-

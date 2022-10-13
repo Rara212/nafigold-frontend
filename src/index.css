@@ -13,3 +13,15 @@ body {
 .price-header {
   @apply font-body text-[20px];
 }
+
+.all-products {
+  @apply rounded-full w-[90px] h-[90px] inline-block;
+}
+
+.products {
+  @apply flex justify-center text-center;
+}
+
+.popular-product {
+  @apply rounded-xl w-[216px] h-[165px];
+}

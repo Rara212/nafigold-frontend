@@ -1,3 +1,5 @@
+import { products } from "../../../assets/data";
+
 export default function Products() {
   return (
     <div className="bg-white py-20">
@@ -8,24 +10,104 @@ export default function Products() {
         </h5>
       </div>
       <Box />
-      <div>
-        <div>
-          <h6>Buy What Makes You Happy</h6>
+      <div className="flex w-full justify-start  flex-col">
+        <div className="w-4/5 px-60 mx-auto flex flex-col  ">
+          {/* All Kind of Products */}
+          <div className="my-auto">
+            <div>
+              <h6 className="text-[14px] text-[#307185] font-medium">
+                Buy What Makes You Happy
+              </h6>
+            </div>
+            <div className="flex py-20 gap-20 justify-evenly">
+              <div className="product">
+                <img
+                  className="all-products"
+                  src="/assets/products/emas/minigold_.1_gram.png"
+                  alt="minigold"
+                />
+                <p className="py-5">Mini Gold</p>
+              </div>
+              <div className="product">
+                <img
+                  className="all-products"
+                  src="/assets/products/bucket-emas/Bucket1.jpg"
+                  alt="bucket"
+                />
+                <p className="py-5">Figura</p>
+              </div>
+              <div className="product">
+                <img
+                  className="all-products"
+                  src="/assets/products/figura/Figura1.jpg"
+                  alt="figura"
+                />
+                <p className="py-5">Bucket Emas</p>
+              </div>
+            </div>
+          </div>
+          {/* Most Popular Around the World */}
           <div>
-            <div>
-              <img
-                src="/assets/products/emas/minigold_.1_gram.png"
-                alt="minigold"
-              />
+            <div className="flex justify-between">
+              <h6 className="text-[14px] text-[#307185] font-medium">
+                Most Popular Around the World
+              </h6>
+              <p className="text-[16px] text-[#F30000]">See All</p>
             </div>
-            <div>
-              <img
-                src="/assets/products/bucket-emas/Bucket1.jpg"
-                alt="bucket"
-              />
+
+            <div className="flex py-20 gap-20 justify-evenly">
+              <div className="relative popular-product">
+                <img
+                  className=""
+                  src="/assets/products/emas/minigold_.1_gram.png"
+                  alt="minigold"
+                />
+                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] ">
+                  <p className="m-auto">Rp. 997.000</p>
+                </div>
+              </div>
+
+              <div className="relative popular-product">
+                <img
+                  className=""
+                  src="/assets/products/emas/minigold_.1_gram.png"
+                  alt="minigold"
+                />
+                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] ">
+                  <p className="m-auto">Rp. 997.000</p>
+                </div>
+              </div>
+
+              <div className="relative popular-product">
+                <img
+                  className=""
+                  src="/assets/products/emas/minigold_.1_gram.png"
+                  alt="minigold"
+                />
+                <div className="flex absolute  bg-white w-full h-1/2 -mt-[38%] ">
+                  <p className="m-auto">Rp. 997.000</p>
+                </div>
+              </div>
             </div>
-            <div>
-              <img src="/assets/products/figura/Figura1.jpg" alt="figura" />
+          </div>{" "}
+          {/* Product List */}
+          <div>
+            <div className="flex justify-between">
+              <h6 className="text-[14px] text-[#307185] font-medium">
+                Product List
+              </h6>
+              <p className="text-[16px] text-[#F30000]">See All</p>
+            </div>
+            <div className="flex flex-wrap py-10 gap-20 justify-evenly">
+              {products.map((item) => (
+                <div className="product ">
+                  <img
+                    className="w-[132px] h-[132px] rounded-[10px]"
+                    src={item.img}
+                    alt={item.name}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -33,12 +115,13 @@ export default function Products() {
     </div>
   );
 }
+
 const Box = () => (
   <div className="flex mx-auto lg:my-10 bg-[#CEAE5E] w-3/6 py-10 rounded-lg">
     <div className="flex justify-start px-10 gap-20">
       <div className="flex flex-col justify-evenly divide-y-2 text-white">
         <div>
-          <div className="">
+          <div>
             <p className="text-xl">Up To</p>
           </div>
           <div>
@@ -69,3 +152,18 @@ const Box = () => (
     </div>
   </div>
 );
+
+<div>
+  <div className="flex py-10 gap-20 justify-evenly">
+    <div className="relative popular-product">
+      <img
+        className=""
+        src="/assets/products/emas/minigold_.1_gram.png"
+        alt="minigold"
+      />
+      <div className="flex absolute  bg-white w-full h-1/2 -mt-[35%] ">
+        <p className="m-auto">Rp. 997.000</p>
+      </div>
+    </div>
+  </div>
+</div>;
