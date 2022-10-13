@@ -10,7 +10,11 @@ export default function TransactionSchema() {
           </h6>
         </div>
         <div>
-          <img src="/assets/schema-mascot.png" alt="schema-mascot" />
+          <img
+            className="w-32"
+            src="/assets/schema-mascot.png"
+            alt="schema-mascot"
+          />
         </div>
       </div>
     </div>
