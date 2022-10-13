@@ -1,6 +1,7 @@
 const TransactionSchemaData = [
   {
     title: "Skema Wakalah",
+    img: "/assets/schemas/wakalah-schema.jpeg",
     "01": [
       {
         label: "Konsumen",
@@ -44,6 +45,7 @@ const TransactionSchemaData = [
 
   {
     title: "Skema COD (cash on Delivery)",
+    img: "/assets/schemas/cod-schemas.jpeg",
     "01": [
       {
         label: "Konsumen",
