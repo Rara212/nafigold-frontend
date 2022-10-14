@@ -25,3 +25,7 @@ body {
 .popular-product {
   @apply rounded-xl w-[216px] h-[165px];
 }
+
+.schema-number {
+  @apply font-bold font-body text-6xl text-white;
+}
