@@ -1,6 +1,7 @@
 import { useRoutes } from "react-router-dom";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
+import Productdetails from "./sections/@product/productdetails";
 
 export default function Router() {
   return useRoutes([
@@ -11,6 +12,10 @@ export default function Router() {
     {
       path: "/produk-kami",
       element: <Products />,
+    },
+    {
+      path: "/productdetails",
+      element: <Productdetails/>,
     },
   ]);
 }
