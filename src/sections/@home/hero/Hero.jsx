@@ -21,9 +21,10 @@ export default function Hero() {
           Serta meredam pola hidup flexing dan terhindar dari pinjaman riba.
           Untuk masa depan yang lebih baik. Berkah dunia akhirat pun dapat.
         </p>
-        <button className="font-body block mr-0 ml-auto text-2xl text-white font-bold">
+        <a className="font-body block mr-0 ml-auto text-2xl text-white font-bold text-right"
+        href="/productdetails">
           ORDER NOW
-        </button>
+        </a>
       </div>
       <div className="bg-[#CEAE5E] h-[311px] absolute z-[-2] w-[311px] left-1/4 bottom-1/4 rounded-full mt-52"></div>
       <div className="lg:w-1/3 my-auto">

@@ -47,37 +47,6 @@ export default function TransactionSchema() {
             />
           </div>
         </div>
-        {/* 1. making wakalah schema and COD*/}
-        <div>
-        <div className="flex justify-center gap-16">
-          {TransactionSchemaData.map((data, i) => (
-            <button
-              key={i}
-              className={`rounded-[50px] px-5 py-2 text-center font-title uppercase ${
-                i === activeTabIndex
-                  ? "bg-[#CEAE5E] text-white"
-                  : "bg-[#353531] text-[#717171]"
-              }`}
-              onClick={() => setActiveTabIndex(i)}
-            >
-              {data.label}
-            </button>
-          ))}
-        </div>
-
-        <div className="flex divide-x-2 justify-center py-8 w-3/5 text-white mx-auto gap-10">
-          <img
-            className="inline-block px-4 w-full "
-            src={TransactionSchemaData[activeTabIndex].image}
-            alt={TransactionSchemaData[activeTabIndex].label}
-          />
-          <p className="font-body px-8 my-auto">
-            {" "}
-            {TransactionSchemaData[activeTabIndex].content}{" "}
-          </p>
-        </div>
-      </div>
-        
       </div>
     </div>
   );

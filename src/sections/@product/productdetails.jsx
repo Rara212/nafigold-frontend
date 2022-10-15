@@ -185,7 +185,7 @@ export default function Productdetails() {
                         {miniGoldReguler.price}{" "}
                       </p>
                         
-                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="">Beli</a>
+                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="/purchaseform">Beli</a>
                         
                     </div>
                     ))}
