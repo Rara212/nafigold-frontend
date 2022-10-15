@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { CiSearch } from 'react-icons/ci';
 
 const miniGoldReguler = [
@@ -221,7 +221,7 @@ export default function Productdetails() {
                         {antamGold.price}{" "}
                       </p>
 
-                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="">Beli</a>
+                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="/purchaseform">Beli</a>
                     
                     </div>
                     ))}
@@ -259,7 +259,7 @@ export default function Productdetails() {
                         {figures.price}{" "}
                       </p>
 
-                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="">Beli</a>
+                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="/purchaseform">Beli</a>
                     
                     </div>
                     ))}
@@ -295,7 +295,7 @@ export default function Productdetails() {
                         {bucket.price}{" "}
                       </p>
 
-                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="">Beli</a>
+                      <a className='bg-[#CEAE5E] border hover:shadow-sm rounded-md font-medium my-1 mx-auto px-3 py-1' href="/purchaseform">Beli</a>
                     
                     </div>
                     ))}
