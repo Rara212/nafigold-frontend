@@ -67,7 +67,7 @@ export default function Keunggulan() {
             </h3>
           </div>
         </div>
-        <div className="py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
+        <div className="flex py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
           <div className="absolute rounded-full bg-[#CEAE5E] px-1 mt-[-2rem] ml-[-0.5rem] text-white font-title">
             <p>06</p>
           </div>

@@ -54,7 +54,7 @@ export default function Products() {
               <h6 className="text-[14px] text-[#307185] font-medium">
                 Most Popular Around the World
               </h6>
-              <p className="text-[16px] text-[#F30000]">See All</p>
+              <a className="text-[16px] text-[#F30000]" href="/productdetails">See All</a>
             </div>
 
             <div className="flex py-20 gap-20 justify-evenly">

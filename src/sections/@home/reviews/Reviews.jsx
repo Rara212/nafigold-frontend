@@ -8,32 +8,38 @@ export default function Reviews() {
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 mt-14">
                 <div className="flex py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
                     <div className="px-5 py-5">
-                        <h3>Menggunakan transaksi <strong className="text-[#CEAE5E]">syariah</strong></h3>
+                        <p>"Pelayanan cepat dan memuaskan!"</p>
+                        <p><em>Muhammad Wazir Ghifari-Jakarta</em></p>
                     </div>
                 </div>
                 <div className="flex py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
                     <div className="px-5 py-5">
-                        <h3><strong className="text-[#CEAE5E]">Amanah</strong> dan terpercaya</h3>
+                        <p>"Aman dan halal."</p>
+                        <p><em>Zikra Afdal-Jakarta</em></p>
                     </div>
                 </div>
                 <div className="flex py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
                     <div className="px-5 py-5">
-                        <h3><strong className="text-[#CEAE5E]">Mudah</strong> dalam bertransaksi emas</h3>
+                        <p>"Sejauh ini Alhamdulillah amanah."</p>
+                        <p><em>Sulis fartia-Jakarta</em></p>
                     </div>
                 </div>
                 <div className="flex py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
                     <div className="px-5 py-5">
-                        <h3>Memberikan edukasi <strong className="text-[#CEAE5E]">perencanaan keuangan</strong> dan <strong className="text-[#CEAE5E]">fiqh muamalah</strong></h3>
+                        <p>"Nyaman banget belanja di NafiGold!"</p>
+                        <p><em>Miftahus Sholihah-Jakarta</em></p>
                     </div>
                 </div>
                 <div className="flex py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
                     <div className="px-5 py-5">
-                        <h3>Memiliki berbagai <strong className="text-[#CEAE5E]">layanan keuangan</strong> untuk membantumu membangun kebiasaan menabung</h3>
+                        <p>"Aman dan amanah."</p>
+                        <p><em>sheima maimouna-Jakarta</em></p>
                     </div>
                 </div>
                 <div className="py-5 font-body font-medium border-2 rounded-2xl border-[#CEAE5E]">
                     <div className="px-5 py-5">
-                        <h3>Tersedia <strong className="text-[#CEAE5E]">berbagai macam produk</strong> gift series untuk menghadiahkan orang tercinta </h3>
+                        <p>"Gak bisa beli emas langsung, eh ada Nafi Saver Money. Alhamdulillah, emas kebeli sekarang!^^ "</p>
+                        <p><em>Inura Bislah Djohar-Jakarta</em></p>
                     </div>
                 </div>
             </div>
