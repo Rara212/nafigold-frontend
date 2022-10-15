@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nafigold-frontend/static/css/main.e222a7cc.css",
-    "main.js": "/nafigold-frontend/static/js/main.8e75eb1d.js",
+    "main.js": "/nafigold-frontend/static/js/main.5fcfceb2.js",
     "index.html": "/nafigold-frontend/index.html",
     "main.e222a7cc.css.map": "/nafigold-frontend/static/css/main.e222a7cc.css.map",
-    "main.8e75eb1d.js.map": "/nafigold-frontend/static/js/main.8e75eb1d.js.map"
+    "main.5fcfceb2.js.map": "/nafigold-frontend/static/js/main.5fcfceb2.js.map"
   },
   "entrypoints": [
     "static/css/main.e222a7cc.css",
-    "static/js/main.8e75eb1d.js"
+    "static/js/main.5fcfceb2.js"
   ]
 }
