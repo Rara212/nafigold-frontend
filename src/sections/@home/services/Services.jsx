@@ -120,101 +120,12 @@ export default function Services() {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center">
+        <button className="bg-[#CEAE5E] px-[69px] py-5 rounded-full">
+          Berlangganan
+        </button>
+      </div>
     </div>
   );
 }
-
-// export default function Services() {
-//   const [activeTabIndex, setActiveTabIndex] = useState(0);
-
-//   return (
-//     <div className="text-white mt-24">
-//       <img
-//         className="flex w-1/12 ml-96"
-//         src="/assets/layanan.png"
-//         alt="layanan kami"
-//       />
-//       <h1 className="text-5xl font-light font-title text-center -mt-20">
-//         <strong className="text-[#CEAE5E]">LAYANAN</strong> KAMI
-//       </h1>
-
-//       {/*making tabview*/}
-//       <div>
-//         <div className="flex space-x-3 mt-20 justify-center">
-//           {/* Loop through tab data and render button for each. */}
-//           {tabsData.map((tab, idx) => {
-//             return (
-//               <button
-//                 key={idx}
-//                 className={`rounded-full  text-center p-2 font-title gap-10 ${
-//                   idx === activeTabIndex
-//                     ? "bg-[#CEAE5E] text-white"
-//                     : "bg-[#353531] text-[#717171]"
-//                 }`}
-//                 // Change the active tab on click.
-//                 onClick={() => setActiveTabIndex(idx)}
-//               >
-//                 {tab.label}
-//               </button>
-//             );
-//           })}
-//         </div>
-//         {/* Show active tab content. */}
-//         <div className="flex py-4 px-40 mt-24">
-//           <img
-//             className="px-4 w-32 mx-5"
-//             src={tabsData[activeTabIndex].image}
-//             alt="illustration"
-//           />
-//           <p className="text-xl mx-auto px-24 py-[-15rem] border-l-4 border-white">
-//             {tabsData[activeTabIndex].content}
-//           </p>
-//         </div>
-//       </div>
-
-//       {/*making notes*/}
-//       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8 mt-14 justify-center">
-//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
-//           <img className="w-1/4" src="/assets/amanah.png" alt="amanah" />
-//           <h5 className="text-white font-bold text-center">
-//             Amanah dan Terpercaya
-//           </h5>
-//           <p>
-//             Tabungan aman{" "}
-//             <strong className="text-[#CEAE5E]">sesuai syariat Islam</strong>,
-//             InsyaAllah lebih berkah.
-//           </p>
-//         </div>
-//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
-//           <img className="w-1/4" src="/assets/accountable.png" alt="amanah" />
-//           <h5 className="text-white font-bold text-center">
-//             Amanah dan Terpercaya
-//           </h5>
-//           <p>
-//             Tabungan aman{" "}
-//             <strong className="text-[#CEAE5E]">sesuai syariat Islam</strong>,
-//             InsyaAllah lebih berkah.
-//           </p>
-//         </div>
-//         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
-//           <img className="w-1/4" src="/assets/overview.png" alt="amanah" />
-//           <h5 className="text-white font-bold text-center">
-//             Amanah dan Terpercaya
-//           </h5>
-//           <p>
-//             Tabungan aman{" "}
-//             <strong className="text-[#CEAE5E]">sesuai syariat Islam</strong>,
-//             InsyaAllah lebih berkah.
-//           </p>
-//         </div>
-//       </div>
-
-//       {/*making join button*/}
-//       <div className="max-w-[1240px] mx-auto justify-center mt-20 px-96">
-//         <button className="rounded-full bg-[#CEAE5E] text-center text-2xl p-2 font-title gap-10 ">
-//           Gabung Sekarang
-//         </button>
-//       </div>
-//     </div>
-//   );
-// }

@@ -10,7 +10,7 @@ export default function Hero() {
         </h1>
         <br />
         <p className="font-body text-2xl text-white ">
-          Nafi Gold adalah platform jual beli emas dengan sistem syariah.
+          Nafi&#39; Gold adalah platform jual beli emas dengan sistem syariah.
           Ditengah merebaknya transaksi yang bercampur RIBA di masyarakat, Insya
           Allah emas sudah membuktikan kekuatannya dalam inflasi.
         </p>
